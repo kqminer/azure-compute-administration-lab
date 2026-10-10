@@ -113,15 +113,37 @@ After deployment, I verified every resource and confirmed that Nginx returned HT
 
 ## Featured Evidence
 
-### Bicep Deployment Succeeded
+### Portal Deployment and Security
+
+![VM deployment succeeded](screenshots/04-vm-deployment-success.png)
+
+![SSH access restricted by NSG](screenshots/06-ssh-nsg-rule.png)
+
+### Storage and Recovery
+
+![Managed data disk attached](screenshots/08-managed-data-disk-attached.png)
+
+![Data disk formatted and mounted](screenshots/10-data-disk-formatted-mounted.png)
+
+![Data disk snapshot created](screenshots/12-data-disk-snapshot-created.png)
+
+![Azure Backup enabled](screenshots/17-azure-backup-enabled.png)
+
+### Access Control and Automation
+
+![VM-scoped RBAC assignments](screenshots/14-vm-scoped-rbac-assignments.png)
+
+![Custom Script Extension succeeded](screenshots/15-custom-script-extension-succeeded.png)
+
+![Nginx service verified](screenshots/16-nginx-service-verified.png)
+
+![Managed identity storage access](screenshots/18-managed-identity-storage-access.png)
+
+### Infrastructure as Code
 
 ![Bicep deployment succeeded](screenshots/20-bicep-deployment-succeeded.png)
 
-### Deployed Resources Verified
-
 ![Bicep resources verified](screenshots/21-bicep-resources-verified.png)
-
-### Nginx Service Verified
 
 ![Bicep Nginx verification](screenshots/22-bicep-nginx-verified.png)
 
