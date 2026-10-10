@@ -111,6 +111,20 @@ The Bicep file accepts the SSH public key and allowed SSH source as parameters r
 
 After deployment, I verified every resource and confirmed that Nginx returned HTTP 200. I then deleted the temporary IaC resource group to stop unnecessary charges.
 
+## Featured Evidence
+
+### Bicep Deployment Succeeded
+
+![Bicep deployment succeeded](screenshots/20-bicep-deployment-succeeded.png)
+
+### Deployed Resources Verified
+
+![Bicep resources verified](screenshots/21-bicep-resources-verified.png)
+
+### Nginx Service Verified
+
+![Bicep Nginx verification](screenshots/22-bicep-nginx-verified.png)
+
 ## Validation Evidence
 
 Screenshots are stored in the `screenshots` folder. Key evidence includes:
